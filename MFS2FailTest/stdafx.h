@@ -12,6 +12,7 @@
 #include "MFSToFailTest.h"
 #include "RepRandom.h"
 #include "FiltFiles.h"
+#include "CombinatorialTest.h"
 #include <stdio.h>
 #include <time.h>
 #include <tchar.h>

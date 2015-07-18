@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Binary.h" />
+    <ClInclude Include="CombinatorialTest.h" />
     <ClInclude Include="FailTest.h" />
     <ClInclude Include="MFSToFailTest.h" />
     <ClInclude Include="RepRandom.h" />
@@ -91,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Binary.cpp" />
+    <ClCompile Include="CombinatorialTest.cpp" />
     <ClCompile Include="FailTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MFSToFailTest.cpp" />
