@@ -44,7 +44,7 @@ int main(int argc, char** argv)
 	{
 		sprintf_s(shell_cmd, "mkdir %s", argv[3]);
 		system(shell_cmd);
-		CombinatorialTest CT(4,2,1);
+		CombinatorialTest CT(10,2,1);
 		
 		CT.AETG(10);
 		CT.PrintCoverArray();
