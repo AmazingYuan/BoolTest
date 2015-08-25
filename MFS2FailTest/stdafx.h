@@ -13,6 +13,7 @@
 #include "RepRandom.h"
 #include "FiltFiles.h"
 #include "CombinatorialTest.h"
+#include "PermutationAndCombination.h"
 #include <stdio.h>
 #include <time.h>
 #include <tchar.h>

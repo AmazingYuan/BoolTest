@@ -44,10 +44,14 @@ int main(int argc, char** argv)
 	{
 		sprintf_s(shell_cmd, "mkdir %s", argv[3]);
 		system(shell_cmd);
+		CombinatorialTest CT(4,2,1);
+		
+		CT.AETG(10);
+		CT.PrintCoverArray();
 	}
 
 	t_end = time(NULL);//计算程序运行结束的时间
-	std::cout << "time: " << difftime(t_end, t_start) << " s" << std::endl;
+	std::cout << "程序运行时间: " << difftime(t_end, t_start) << " s" << std::endl;
 	return 0;
 }
 

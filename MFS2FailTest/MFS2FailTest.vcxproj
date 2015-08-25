@@ -85,6 +85,7 @@
     <ClInclude Include="CombinatorialTest.h" />
     <ClInclude Include="FailTest.h" />
     <ClInclude Include="MFSToFailTest.h" />
+    <ClInclude Include="PermutationAndCombination.h" />
     <ClInclude Include="RepRandom.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -96,6 +97,7 @@
     <ClCompile Include="FailTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MFSToFailTest.cpp" />
+    <ClCompile Include="PermutationAndCombination.cpp" />
     <ClCompile Include="RepRandom.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
